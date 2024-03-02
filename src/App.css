@@ -1,0 +1,130 @@
+:root {
+  --main-magnolie: #BC6093;
+  --main-m-lighter: #E1AFCD;
+  --main-lilac: #590179;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.focim{
+  text-align: center;
+  background-image: linear-gradient(var(--main-magnolie), var(--main-m-lighter), var(--main-magnolie));
+  color: var(--main-lilac) ;
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.navbar{
+  text-align: center!important;
+  background-color: var(--main-magnolie)!important;
+  color: white!important;
+}
+
+a.menu-md{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.menu-xs{
+  color: var(--main-lilac);
+  text-decoration: none;
+  font-weight: bold;
+}
+h2.sections{
+  margin: 2rem;
+  color: var(--main-lilac);
+  background-color: var(--main-m-lighter);
+  padding: 2rem;
+  border-radius: 50%;
+  max-width: 50px;
+}
+
+.card{
+  margin: 20px;
+  box-shadow: 0 0 10px gray;
+  width: 200px;
+  height: 520px;
+}
+
+.cardCarousel{
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.card-title{
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 200px;
+}
+
+.price{
+  color: gray;
+  font-size: 1.5rem;
+}
+
+p.mycard{
+  margin: 1rem;
+
+  text-align: center;
+}
+
+.massage-button{
+  background: var(--main-lilac);
+  color: white;
+  width: 200px;
+  padding: 1rem;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 10px;
+}
+
+.massage-button:hover{
+  cursor: pointer;
+}
+
+.img-card{
+  width: 200px;
+  max-height: 200px;
+}
+p{
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+footer{
+  background-color: var(--main-magnolie);
+  font-family: monospace;
+  font-weight: 800;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.map-responsive{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe{
+  left: 0;
+  top: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.kapcsolat{
+  color: white;
+}
